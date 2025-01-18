@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+`
+# BitScale Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application created as part of the BitScale assignment. Follow the instructions below to clone and run the application on your local machine.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your computer:
+
+- **Node.js** (LTS version recommended)  
+  [Download and install Node.js](https://nodejs.org/)
+
+- **npm** (comes with Node.js) or **yarn** (optional, alternative package manager)  
+  Install Yarn: [https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install)
+
+## Cloning the Repository
+
+To get a local copy of this repository, follow these steps:
+
+1. **Clone the repository:**
+   Open your terminal and run:
+   \`\`\`bash
+   git clone https://github.com/adarshhverma/bitscale-assignment.git
+   \`\`\`
+
+2. **Navigate into the project directory:**
+   \`\`\`bash
+   cd bitscale-assignment
+   \`\`\`
+
+## Installing Dependencies
+
+After cloning the repository, you need to install the required dependencies:
+
+1. **Using npm:**
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+2. **Using yarn (optional):**
+   \`\`\`bash
+   yarn install
+   \`\`\`
+
+## Running the Development Server
+
+Once the dependencies are installed, start the development server:
+
+1. **Using npm:**
+   \`\`\`bash
+   npm start
+   \`\`\`
+
+2. **Using yarn (optional):**
+   \`\`\`bash
+   yarn start
+   \`\`\`
+
+This will start the React development server, and you can view the app in your browser by navigating to [http://localhost:3000](http://localhost:3000).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- \`npm start\` or \`yarn start\`: Runs the app in development mode.
+- \`npm run build\` or \`yarn build\`: Builds the app for production to the \`build\` folder.
+- \`npm test\` or \`yarn test\`: Starts the test runner.
+- \`npm run eject\` or \`yarn eject\`: Ejects the project from CRA setup (this is irreversible).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contributing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Feel free to fork the project, create a branch, and submit pull requests for improvements.
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.

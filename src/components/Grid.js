@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { Table, Typography, Space } from 'antd';
 
 import 'antd/dist/reset.css';
+import "../App.css";
+
 import { ReactComponent as AddIcon } from "../assets/addIcon.svg";
 import { ReactComponent as AlphabetIcon } from "../assets/alphabetIcon.svg";
 import { ReactComponent as GptIcon } from "../assets/gptIcon.svg";
 import { ReactComponent as EnrichIcon } from "../assets/enrichIcon.svg";
 import { ReactComponent as PlayIcon } from "../assets/playIcon.svg";
+
 
 const EditableTable = () => {
     const { Text } = Typography;

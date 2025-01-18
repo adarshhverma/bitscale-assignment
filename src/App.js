@@ -1,11 +1,13 @@
 // src/App.js
 import React, { useState } from "react";
 import { Layout } from "antd";
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 
-const { Header, Content, Sider } = Layout;
+const { Content, Sider } = Layout;
 
 function App() {
   const onChange = (checked) => {
@@ -15,8 +17,7 @@ function App() {
   return (
     <Layout>
       {/* Header */}
-      <Header onSwitchChange={onChange} />
-
+      <Navbar onSwitchChange={onChange} />
       {/* Main Layout */}
       <Layout style={{ border: "1px solid #E5E5E5", height: "90vh" }}>
         {/* Sidebar */}

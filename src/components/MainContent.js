@@ -1,6 +1,7 @@
 // src/components/MainContent.js
 import React from "react";
 import { Row, Col, Input, Space, Button,Typography } from "antd";
+
 import { ReactComponent as VerticalIcon } from "../assets/verticalIcon.svg";
 import { ReactComponent as HorizontalIcon } from "../assets/horizontalIcon.svg";
 import { ReactComponent as FilterIcon } from "../assets/filterIcon.svg";

@@ -1,6 +1,7 @@
 // src/components/Sidebar.js
 import React from "react";
 import { Space, Menu } from "antd";
+
 import { ReactComponent as TableIcon } from "../assets/table.svg";
 import { ReactComponent as PuzzleIcon } from "../assets/puzzle-piece-01.svg";
 import { ReactComponent as IntersectionIcon } from "../assets/intersect-circle.svg";
@@ -10,7 +11,7 @@ import { ReactComponent as DBIcon } from "../assets/db.svg";
 const Sidebar = () => {
   return (
     <div style={{ padding: "1rem 0", background: "#fff", borderRight: "1px solid #E5E5E5" }}>
-      <Space direction="vertical" align="center" style={{ height: "100%", justifyContent: "space-between" }}>
+      <Space direction="vertical" align="center" style={{ height: "80vh", justifyContent: "space-between" }}>
         {/* Top Menu */}
         <Menu mode="inline" defaultSelectedKeys={["1"]} style={{ height: "100%", borderRight: 0 }}>
           <Menu.Item key="1">

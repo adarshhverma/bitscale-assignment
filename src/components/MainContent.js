@@ -17,7 +17,7 @@ import EditableTable from "./Grid";
 const { Text } = Typography;
 const MainContent = () => {
   return (
-    <div style={{ padding: "1rem", margin: 0, height: "70vh", overflowY: "scroll" }}>
+    <div style={{ padding: "1rem", margin: 0, height: "90vh", overflowY: "scroll" }}>
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={24} md={24} lg={8}>
           <Input

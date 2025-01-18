@@ -10,8 +10,8 @@ import { ReactComponent as DBIcon } from "../assets/db.svg";
 
 const Sidebar = () => {
   return (
-    <div style={{ padding: "1rem 0", background: "#fff", borderRight: "1px solid #E5E5E5" }}>
-      <Space direction="vertical" align="center" style={{ height: "80vh", justifyContent: "space-between" }}>
+    <div style={{  background: "#fff", borderRight: "1px solid #E5E5E5" }}>
+      <Space direction="vertical" align="center" style={{ height: "85vh", justifyContent: "space-between" }}>
         {/* Top Menu */}
         <Menu mode="inline" defaultSelectedKeys={["1"]} style={{ height: "100%", borderRight: 0 }}>
           <Menu.Item key="1">

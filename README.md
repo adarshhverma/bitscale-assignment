@@ -1,4 +1,3 @@
-`
 # BitScale Assignment
 
 This is a React-based web application created as part of the BitScale assignment. Follow the instructions below to clone and run the application on your local machine.
